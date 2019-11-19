@@ -16,4 +16,10 @@ class RecipesController < ApplicationController
   def create
     raise params.inspect
   end
+  
+  private 
+  
+  def recipe_params 
+    
+  end 
 end
